@@ -33,7 +33,7 @@ install(
 )
 
 install(
-  DIRECTORY share/
+  DIRECTORY share launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/share
   USE_SOURCE_PERMISSIONS
 )

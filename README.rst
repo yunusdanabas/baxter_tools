@@ -4,6 +4,15 @@ baxter_tools
 Useful operational and maintenance tools for use with the Baxter Research Robot
 from Rethink Robotics
 
+Python3 / ROS Noetic compatible
+
+Description publisher
+---------------------
+
+The node description_publisher.py retrieves the robot_description parameter and publishes it under the latched topic robot_description.
+It allows getting the description within ROS 2 through ros1_bridge.
+
+
 Code & Tickets
 --------------
 
@@ -30,6 +39,7 @@ baxter_tools Repository Overview
      |   +-- tare.py
      |   +-- tuck_arms.py
      |   +-- update_robot.py
+     |   +-- description_publisher.py
      |
      +-- src/                  tool program classes
      |
